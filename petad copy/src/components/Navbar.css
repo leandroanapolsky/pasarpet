@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 30px;
+  width: 200px;
+  border-radius: 0;
+}
+.navbar {
+  padding: 1em;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main);
+  font-family: var(--h-font);
+  font-weight: 700;
+}
+
+.nav-logo {
+  justify-self: flex-start;
+  padding-left: 10px;
+}
+
+.nav-right {
+  display: flex;
+}
+
+.nav-item {
+  color: white;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  cursor: pointer;
+}

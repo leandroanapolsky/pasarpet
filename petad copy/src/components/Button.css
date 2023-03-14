@@ -1,0 +1,30 @@
+.main {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: var(--h-font);
+  font-weight: 500;
+  border: 1px solid var(--main);
+  background-color: var(--main);
+  /* margin-top: 15px; */
+  max-width: fit-content;
+}
+
+.second {
+  max-width: fit-content;
+  border-radius: 5px;
+  color: var(--main);
+  font-weight: 500;
+  background-color: var(--second);
+}
+
+.third {
+  color: white;
+  font-weight: 300;
+  background-color: none;
+}
+
+.reverse {
+  color: var(--main);
+  background-color: white;
+}

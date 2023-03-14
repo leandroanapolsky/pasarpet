@@ -1,0 +1,12 @@
+.pet-card {
+  margin: auto;
+  margin-top: 10vh;
+  border-radius: 10px;
+  background-color: var(--second);
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}

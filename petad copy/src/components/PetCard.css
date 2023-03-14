@@ -1,0 +1,16 @@
+
+.pet-short-card {
+  width: 350px;
+  background-color: var(--second);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--main);
+  margin: 10px 15px;
+  height: 100px;
+  padding: 10px;
+}
+.pet-card-right{
+  display: flex;
+  flex-direction: column;
+}
